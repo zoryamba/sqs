@@ -1,5 +1,5 @@
 import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
-import { DiscoveryModule, DiscoveryService } from '@nestjs-plus/discovery';
+import { DiscoveryModule, DiscoveryService } from '@golevelup/nestjs-discovery';
 
 import { SqsConfig } from './sqs.config';
 import { SqsService } from './sqs.service';
